@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons {
+    flex-direction: row;
+}
+
+.about_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.visit {
+    margin-top: 10vh;
+}
