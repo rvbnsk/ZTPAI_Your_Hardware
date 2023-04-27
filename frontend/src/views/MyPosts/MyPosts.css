@@ -1,0 +1,103 @@
+.post_text_dtl {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.postDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3
+{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px
+}
+
+.post_title_dtl {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.post {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    box-sizing: border-box;
+    height: 30vh;
+    /*background: url(../media/thomas-foster-vWgoeEYdtIY-unsplash.jpg);*/
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.post_picture {
+    /*background-image: url("../media/post.jpg");*/
+    position: relative;
+    z-index: -1;
+    background-repeat: inherit;
+    overflow: hidden;
+}
+
+.about {
+    position: relative;
+}
+
+@media screen and (max-width: 500px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+
+    .main_text {
+        margin-bottom: 15%;
+    }
+
+    .about_me_main {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .about_me_main h3 {
+        font-size: 50px;
+    }
+
+    .post_picture {
+        width: 100%;
+    }
+
+    .post_title h3 {
+        margin-left: 2vh;
+        font-size: 30px;
+    }
+
+    .post_text {
+        font-size: 17px;
+    }
+}
