@@ -1,0 +1,42 @@
+.post {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    box-sizing: border-box;
+    height: 30vh;
+    /*background: url(../media/thomas-foster-vWgoeEYdtIY-unsplash.jpg);*/
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.post1_text {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.post1_read {
+    margin-top: 3vh;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

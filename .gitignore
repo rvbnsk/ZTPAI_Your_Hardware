@@ -36,3 +36,9 @@ build/
 mvnw
 mvnw.cmd
 .mvn
+
+.DS_Store
+db-data/
+
+frontend/node_modules/
+frontend/package-lock.json
