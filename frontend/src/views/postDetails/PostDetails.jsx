@@ -18,8 +18,6 @@ const PostDetails = () => {
         }
     })
 
-
-
     useEffect(() => {
         const getPost = async () => {
             const data = await fetchPostById(id);
@@ -40,11 +38,11 @@ const PostDetails = () => {
 
 
 
-            <div className="post_text_dtl">
+            <div className="post_title_dtl">
                 {post.title}
             </div>
 
-            <div className="post_title_dtl">
+            <div className="post_text_dtl">
                 {post.description}
             </div>
 

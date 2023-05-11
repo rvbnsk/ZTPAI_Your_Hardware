@@ -23,7 +23,7 @@ export const Register = () => {
         <Header stage={"REGISTER"} />
 
         <div className="form">
-            <div className="container">
+            <div className="container" style={{paddingLeft: "25%", paddingRight: "25%"}}>
                 <label htmlFor="uname">Name</label>
                 <input type="text" placeholder="Enter Name" name="name" required onChange={val => setName(val.target.value)}/>
 

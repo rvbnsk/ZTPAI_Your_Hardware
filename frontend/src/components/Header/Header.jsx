@@ -24,7 +24,7 @@ const Header = ({ stage }) => {
                 <div>
                     <div>
                         <ul>
-                            <li><Link to="/home">Ma Page</Link></li>
+                            <li><Link to="/home">Home</Link></li>
                             <li><Link to="/posts">Posts</Link></li>
                             <li><Link to="/add">Add Post</Link></li>
                             <li><Link to="/about">About</Link></li>

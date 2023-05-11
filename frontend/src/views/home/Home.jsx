@@ -13,24 +13,19 @@ const Home = () => {
         }
     })
 
-    return <>
-        <div className="main_page">
+    return <div className="main_page">
             <Header stage={"LOGGED_IN"} />
-        </div>
 
+            <div className="main_text">
+                <p>Welcome to Your Hardware, where PC customization is our passion. We're dedicated to providing you with all the information you need to build the ultimate custom PC. From expert advice and tutorials, to product reviews and industry news, we have it all.
+                </p>
+                <p>Whether you're a seasoned builder or just getting started, our goal is to make the building process easy and enjoyable. Browse our site and get inspired by the latest trends and innovations in the world of PC customization.
+                </p>
+                <p>Join the community of PC enthusiasts at Your Hardware and start your journey towards building the custom PC of your dreams. We're here to help you every step of the way.
+                </p>
+            </div>
 
-        <div className="main_text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id justo auctor, condimentum massa ac,
-            auctor
-            arcu. Morbi consectetur mollis lorem, maximus gravida sem maximus ut. In consequat pretium quam ac
-            hendrerit.
-            Mauris consectetur lectus vel mauris elementum lobortis. Cras lorem quam, blandit nec enim eu, sodales
-            venenatis
-            urna. Integer commodo rutrum fringilla. Sed accumsan ac orci sit amet hendrerit. Sed condimentum, urna a
-            iaculis
-            posuere, tortor diam ullamcorper nunc, quis finibus erat lorem id metus.
         </div>
-    </>
 }
 
 export default Home;

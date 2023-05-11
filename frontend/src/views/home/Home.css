@@ -16,13 +16,13 @@ body {
 }
 
 .main_page {
+    height: 100vh;
     font-family: 'Lato', sans-serif;
-    /*background-image: url("../media/IMG_5329.jpg");*/
+    background-image: url("./media/IMG_5329.jpg");
     background-color: rgba(115, 115, 115, 0.616);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -291,8 +291,9 @@ body {
     font-size: 24px;
     line-height: 29px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 
     color: #FFFFFF;
 }

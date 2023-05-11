@@ -18,7 +18,7 @@ const Login = () => {
 
     const onSubmit = async (e) => {
         e.preventDefault()
-        const ret = await loginUser({email, password})
+        await loginUser({email, password})
             .then(res => res.json())
             .then(res => {
                 localStorage.setItem("token", res.token)
@@ -31,13 +31,11 @@ const Login = () => {
             <Header stage={"LOGIN"}/>
             <form onSubmit={onSubmit}>
                 <div className="container">
-                    <div>
-                    </div>
                     <label htmlFor="uname">Username</label>
-                    <input type="text" placeholder="Enter Username" name="email" required onChange={val => setEmail(val.target.value)}/>
+                    <input className="input2" type="text" placeholder="Enter Username" name="email" required onChange={val => setEmail(val.target.value)}/>
 
                     <label htmlFor="psw">Password</label>
-                    <input type="password" placeholder="Enter Password" name="password" required onChange={val => setPassword(val.target.value)}/>
+                    <input className="input2" type="password" placeholder="Enter Password" name="password" required onChange={val => setPassword(val.target.value)}/>
 
                     <button type="submit">Login</button>
                 </div>

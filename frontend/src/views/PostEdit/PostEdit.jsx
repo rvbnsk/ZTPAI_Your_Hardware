@@ -15,25 +15,25 @@ const PostEdit = ({ post, onDelete, onUpdate }) => {
             {!isTriggered ?
                 <p className="post1_text">{post.title}</p>
                 :
-                <input value={newTitle} onChange={e => setNewTitle(e.target.value)}/>
+                <input style={{width: "50%", marginLeft: "25%"}} type="text" value={newTitle} onChange={e => setNewTitle(e.target.value)}/>
             }
             {!isTriggered ?
             <a href={`postDetails/${post.id}`}>
                 <p className="post1_read">{post.description}</p>
             </a>
                 :
-                <input value={newDsc} onChange={e => setNewDsc(e.target.value)}/>
+                <input style={{width: "50%", marginLeft: "25%"}} type="text" value={newDsc} onChange={e => setNewDsc(e.target.value)}/>
             }
 
             {isTriggered && (
-                <button onClick={e => onUpdate({id: post.id, title: newTitle, description: newDsc})}>submit</button>
+                <button style={{width: "50%", marginLeft: "25%"}} onClick={e => onUpdate({id: post.id, title: newTitle, description: newDsc})}>submit</button>
             )}
         </div>
-        <button style={{width: '80%', marginLeft: '10%'}} onClick={e => onDelete(post.id)}>delete</button>
+        <button style={{width: '50%', marginLeft: '25%', backgroundColor: 'red'}} onClick={e => onDelete(post.id)}>delete</button>
         {isTriggered ?
-            <button style={{width: '80%', marginLeft: '10%', backgroundColor: 'blue'}} onClick={triggerUpdate}>update</button>
+            <button style={{width: '50%', marginLeft: '25%', backgroundColor: 'aqua'}} onClick={triggerUpdate}>abort updating</button>
             :
-            <button style={{width: '80%', marginLeft: '10%', backgroundColor: 'red'}} onClick={triggerUpdate}>update</button>
+            <button style={{width: '50%', marginLeft: '25%', backgroundColor: 'aqua'}} onClick={triggerUpdate}>update</button>
         }
     </>
 }
