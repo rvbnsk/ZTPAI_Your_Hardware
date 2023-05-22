@@ -42,3 +42,4 @@ db-data/
 
 frontend/node_modules/
 frontend/package-lock.json
+src/main/resources/application.properties
