@@ -28,10 +28,10 @@ At Your Hardware, we believe in delivering high-quality content and resources th
 Join the community of like-minded PC enthusiasts at Your Hardware and start your journey towards building the custom PC of your dreams.</p>
                 <p className="visit">You can visit us on</p>
                 <div className="icons">
-                    <a href="https://www.facebook.com/"><img src="src/media/icons8-facebook-240.png"/></a>
-                    <a href="https://www.instagram.com/"><img src="src/media/icons8-instagram-240.png"/></a>
-                    <a href="https://www.linkedin.com/"><img src="src/media/icons8-linkedin-240.png"/></a>
-                    <a href="https://www.github.com/"><img src="src./media/icons8-github-240.png"/></a>
+                    <a href="https://www.facebook.com/"><img src={require("./icons8-facebook-240.png")}/></a>
+                    <a href="https://www.instagram.com/"><img src={require("./icons8-instagram-240.png")}/></a>
+                    <a href="https://www.linkedin.com/"><img src={require("./icons8-linkedin-240.png")}/></a>
+                    <a href="https://www.github.com/"><img src={require("./icons8-github-240.png")}/></a>
                 </div>
             </div>
 
